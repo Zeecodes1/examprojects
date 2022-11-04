@@ -20,8 +20,8 @@ export default function App() {
           return { count: action.valued.target.value };
           case 'incrementBy':
             return { count: state.count + 10 };
-          case 'decrementBy':
-            return { count: state.count - 10 };
+            case 'decrementBy':
+              return { count: state.count - 10 };
         default:
           return state;
       }

@@ -11,7 +11,7 @@ export default function Counter({ state, dispatch }) {
         <button onClick={() => dispatch({ type: "reset" })}>Reset</button>
         <button onClick={() => dispatch({ type: "decrement" })}>Decrement</button>
         <button onClick={() => dispatch({ type: "decrementBy", payload: 10 })}>
-          Decrement by 10
+        Decrement by 10
         </button>
       </div>
     );
