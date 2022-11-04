@@ -7,46 +7,202 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   width: 100%;
   height: 100%;
-  background-color: #762e88;
+  background-color: royalblue;
 }
 
-.container {
-  max-width: 60%;
-  min-height: 250px;
-  padding: 15px 0;
-  background-color: rgb(51, 18, 197);
-  border-radius: 20px;
-  margin: 15% auto;
+/* Path: src\components\Navbar\index.css */
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 1rem 2rem;
+  background-color: black;
+  box-shadow: none;
+}
+
+.navbar--logo a{
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #e14d2a;
+  text-decoration: none;
+}
+
+.navbar ul{
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li{
+  margin-left: 1rem;
+}
+
+.navbar ul li a{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #e14d2a;
+  background-color: #f8ede3;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.navbar ul li a:hover{
+  color: #f8ede3;
+  background-color: #e14d2a;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+/* Path: src\pages\Home\index.css */
+.home--container {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home--container h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #e14d2a;
+  margin-bottom: 1rem;
+}
+
+.home--container p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #e14d2a;
+  margin-bottom: 1rem;
+}
+
+.home--container a {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #f8ede3;
+  background-color: #e14d2a;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.home--container a:hover {
+  color: #e14d2a;
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+/* Path: src\pages\Counter\index.css */
+.counter--container {
+  max-width: 50%;
+  min-height: 200px;
+  padding: 20px 0;
+  background-color: skyblue;
+  border-radius: 10px;
+  margin: 11% auto;
   text-align: center;
   align-content: center;
   justify-content: center;
-  box-shadow: 5px 5px 5px 5px #0f0f0f;
+  box-shadow: none;
   color: #e14d2a;
 }
 
-.container h1 {
+.counter--container h1 {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-.container button {
+.counter--container button {
   margin: 10px;
   padding: 10px 30px;
   border: none;
   border-radius: 10px;
-  background-color: #0e3c64;
-  color: #0a0516;
+  background-color: #aebdca;
+  color: #e14d2a;
   font-size: 1.2rem;
   font-weight: 600;
-  box-shadow: 2px 5px 5px 5px #68615d;
-  cursor: grab;
+  box-shadow: none;
+  cursor: pointer;
 }
 
-.container button:hover {
-  background-color: #0f0e0e;
-  color: #047feb;
+.counter--container button:hover {
+  background-color: #0e0d0d;
+  color: whitesmoke;
+}
+
+.counter--container input {
+  width: 90%;
+  height: 50px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #e14d2a;
+  box-shadow: none;
+}
+
+.counter--container input:focus {
+  outline: none;
+}
+
+/* Path: src\pages\About\index.css */	
+.about--container {
+  margin: auto;
+  width: 50%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about--container h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.about--container p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: red;
+  margin-bottom: 1rem;
+}
+
+/* Path: src\pages\Error\index.css */
+.error--container {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.error--container h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #e14d2a;
+  margin-bottom: 1rem;
+}
+
+.error--container a {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #e14d2a;
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+
+.error--container a:hover {
+  color: #aebdca;
 }
