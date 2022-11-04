@@ -7,13 +7,13 @@ export default function Navbar() {
         <h1 className="navbar--logo"><Link to="/">COUNTER APP</Link></h1>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/">HOME</Link>
         </li>
         <li>
-          <Link to="/counter">Counter</Link>
+          <Link to="/counter">COUNTER</Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="/about">ABOUT</Link>
         </li>
       </ul>
     </nav>
