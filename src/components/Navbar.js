@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <div className="navbar--container">
     <nav className="navbar">
-        <h1 className="navbar--logo"><Link to="/">COUNTER APP</Link></h1>
+        <h1 className="header"><Link to="/">COUNTER APP</Link></h1>
       <ul>
         <li>
           <Link to="/">HOME</Link>
