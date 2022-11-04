@@ -15,6 +15,9 @@ export default function Navbar() {
         <li>
           <Link to="/about">ABOUT</Link>
         </li>
+        <li>
+          <Link to="/404 - Not Found.">NOT FOUND</Link>
+        </li>
       </ul>
     </nav>
     <Outlet />
