@@ -192,18 +192,18 @@ body {
 .error--container h1 {
   font-size: 3rem;
   font-weight: 600;
-  color: #e14d2a;
+  color: black;
   margin-bottom: 1rem;
 }
 
 .error--container a {
   font-size: 1.2rem;
   font-weight: 400;
-  color: #e14d2a;
+  color: black;
   margin-bottom: 1rem;
   text-decoration: none;
 }
 
 .error--container a:hover {
-  color: #aebdca;
+  color: black;
 }
